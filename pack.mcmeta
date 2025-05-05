@@ -1,0 +1,10 @@
+﻿{
+	"pack": {
+		"pack_format": 57,
+		"description": [
+			{"text":"关于","color":"gold"},
+			{"text":"1.21.3","color":"red"},
+			{"text":"的枪械数据包","color":"gold"}
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "values": [
+      "#minecraft:air",
+      "minecraft:water",
+      "minecraft:lava",
+      "#minecraft:flowers",
+      "minecraft:torch",
+      "minecraft:tall_grass",
+      "minecraft:short_grass"
+    ]
+  }

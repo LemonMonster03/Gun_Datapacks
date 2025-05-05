@@ -1,0 +1,9 @@
+{
+    "values": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:creeper",
+      "#minecraft:raiders",
+      "minecraft:spider"
+    ]
+  }
