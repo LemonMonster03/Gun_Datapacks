@@ -21,5 +21,7 @@ function gun:gun/reloading
 # 让猪离开
 execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}}] at @s if entity @e[type=pig,distance=..16] run \
 execute as @e[type=pig,distance=..16] run data modify entity @s NoAI set value 1b
-
 execute as @e[type=pig] at @s unless entity @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}},distance=..17] run data modify entity @s NoAI set value 0b
+
+# 抖动
+function gun:gun/shake

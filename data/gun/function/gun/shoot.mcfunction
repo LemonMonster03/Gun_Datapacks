@@ -19,9 +19,11 @@ playsound minecraft:entity.generic.explode player @a ~ ~ ~ 0.5 2
 
 # 视角抖动
 # execute as @s at @s run tp @s ~ ~ ~ ~ ~-2.5
+execute as @s at @s run scoreboard players set @s gun_shake_gap 1
+execute as @s at @s if entity @s[scores={gun_shake=..30}] run scoreboard players add @s gun_shake 10
 
 # 设置冷却时间
-scoreboard players set @s gun_cooldown 1
+scoreboard players set @s gun_cooldown 5
 
 # 调用子弹飞行函数
 execute as @s at @s positioned ~ ~0.7 ~ run function gun:gun/bullet_raycast

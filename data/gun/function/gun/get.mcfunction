@@ -1,0 +1,2 @@
+give @s gunpowder[max_stack_size=1, custom_name='{"text":"弹匣", "color":"red"}'] 4
+give @s carrot_on_a_stick[custom_name='{"text":"gun", "color":"red"}',lore=['[{"text": "右键开火", "color":"green"}]','[{"text": "手持火药按F换弹", "color":"green"}]']]
