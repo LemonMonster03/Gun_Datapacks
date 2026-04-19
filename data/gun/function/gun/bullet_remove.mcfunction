@@ -1,11 +1,7 @@
-# 添加撞击粒子效果
-particle minecraft:smoke ~ ~1 ~ 0.1 0.1 0.1 2 100 normal
+# 撞击粒子（小范围烟雾）
+particle minecraft:smoke ~ ~0.5 ~ 0.05 0.05 0.05 0.02 5 normal
+particle minecraft:crit ~ ~0.5 ~ 0.05 0.05 0.05 0.05 3 normal
 
-# 添加撞击音效
-playsound block.stone.break block @a ~ ~ ~ 0.5 1
-playsound entity.arrow.hit block @a ~ ~ ~ 0.5 1.5
-
-# 在撞击点生成小型爆炸效果(可选)
-# summon area_effect_cloud ~ ~ ~ {Radius:0.5f,Duration:10,Effects:[]}
-
-# 移除子弹
+# 撞击音效
+playsound minecraft:block.stone.break block @a ~ ~ ~ 0.5 1
+playsound minecraft:entity.arrow.hit block @a ~ ~ ~ 0.5 1.5

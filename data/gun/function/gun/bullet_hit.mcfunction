@@ -1,9 +1,9 @@
-# 对命中的实体造成伤害(使用伤害值为7的近战伤害)
-execute as @e[type=#gun:hostile,distance=..1.7,sort=nearest,limit=1] run damage @s 7 minecraft:player_attack by @p
+# 对命中的实体造成伤害（7点枪弹伤害，归属于最近玩家，无视盾牌）
+execute as @e[type=#gun:hostile,distance=..1.3,sort=nearest,limit=1] run damage @s 7 gun:bullet by @p
 
-# 添加命中音效
-playsound entity.arrow.hit_player player @a ~ ~ ~ 1 1
-playsound entity.player.hurt neutral @a ~ ~ ~ 0.5 1
+# 命中粒子（小范围暴击星星）
+particle minecraft:crit ~ ~ ~ 0.1 0.2 0.1 0.1 5 normal
 
-# 生成击退效果(可选)
-# execute as @e[type=#gun:hostile,distance=..0.7,sort=nearest,limit=1] at @s run tp @s ^ ^ ^-5.5
+# 命中音效
+playsound minecraft:entity.arrow.hit_player player @a ~ ~ ~ 1 1
+playsound minecraft:entity.player.hurt neutral @a ~ ~ ~ 0.5 1
