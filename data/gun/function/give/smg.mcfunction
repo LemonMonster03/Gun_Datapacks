@@ -1,0 +1,2 @@
+# 给予冲锋枪 — 伤害4 / 射程10 / 穿透1 / 弹容60 / 装弹30t(1.5秒)
+give @s minecraft:carrot_on_a_stick[minecraft:custom_data={gun_damage:4,gun_range:10,gun_penetration:1,gun_max_ammo:60,gun_reload_time:30,current_ammo:60},minecraft:custom_name='[{"text":"冲锋枪","color":"aqua","italic":false}]',minecraft:lore=['[{"text":"伤害: 4","color":"gray","italic":false}]','[{"text":"射程: 10","color":"gray","italic":false}]','[{"text":"穿透: 1","color":"gray","italic":false}]','[{"text":"弹容: 60","color":"gray","italic":false}]','[{"text":"装弹: 1.5秒","color":"gray","italic":false}]']]

@@ -1,0 +1,2 @@
+# 给予狙击枪 — 伤害20 / 射程30 / 穿透2 / 弹容5 / 装弹80t(4秒)
+give @s minecraft:carrot_on_a_stick[minecraft:custom_data={gun_damage:20,gun_range:30,gun_penetration:2,gun_max_ammo:5,gun_reload_time:80,current_ammo:5},minecraft:custom_name='[{"text":"狙击枪","color":"dark_red","italic":false}]',minecraft:lore=['[{"text":"伤害: 20","color":"gray","italic":false}]','[{"text":"射程: 30","color":"gray","italic":false}]','[{"text":"穿透: 2","color":"gray","italic":false}]','[{"text":"弹容: 5","color":"gray","italic":false}]','[{"text":"装弹: 4.0秒","color":"gray","italic":false}]']]

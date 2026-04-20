@@ -10,6 +10,16 @@ scoreboard objectives add gun_shake_down dummy
 scoreboard objectives add gun_shake_gap dummy
 scoreboard objectives add gun_init dummy
 
+# 枪械属性记分板（从物品 custom_data 动态读取）
+scoreboard objectives add gun_dmg dummy
+scoreboard objectives add gun_rng dummy
+scoreboard objectives add gun_pen dummy
+scoreboard objectives add gun_pen_left dummy
+scoreboard objectives add gun_max_ammo dummy
+scoreboard objectives add gun_reload_t dummy
+scoreboard objectives add gun_slot dummy
+scoreboard objectives add gun_slot_prev dummy
+
 # 初始化当前在线玩家
 scoreboard players set @a reloading 0
 scoreboard players set @a reload_cooldown 0

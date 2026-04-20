@@ -1,0 +1,2 @@
+# 给予默认步枪 — 伤害7 / 射程15 / 穿透1 / 弹容30 / 装弹40t(2秒)
+give @s minecraft:carrot_on_a_stick[minecraft:custom_data={gun_damage:7,gun_range:15,gun_penetration:1,gun_max_ammo:30,gun_reload_time:40,current_ammo:30},minecraft:custom_name='[{"text":"步枪","color":"yellow","italic":false}]',minecraft:lore=['[{"text":"伤害: 7","color":"gray","italic":false}]','[{"text":"射程: 15","color":"gray","italic":false}]','[{"text":"穿透: 1","color":"gray","italic":false}]','[{"text":"弹容: 30","color":"gray","italic":false}]','[{"text":"装弹: 2.0秒","color":"gray","italic":false}]']]
